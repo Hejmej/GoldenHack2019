@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "novus.vision/precache-manifest.f0aa1850f3a7249fbaebcbdb0400389e.js"
+  "novus.vision/precache-manifest.bd04149df39e781b5172328c934d9f70.js"
 );
 
 self.addEventListener('message', (event) => {
