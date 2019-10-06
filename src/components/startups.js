@@ -27,7 +27,7 @@ function Startups() {
                     <input type="text" className="noSpace"></input>
                     <input type="password" className="noSpace"></input>
                 </div>
-                <a href="discover" class="submitButton">Submit</a>
+                <a href="analytics" class="submitButton">Submit</a>
               </div>
             </div>
           </div>
