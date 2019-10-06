@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: black;
+    background-color: #D0DCE0;
 }
 
 .white {
@@ -195,7 +195,7 @@ a {
 }
 
 .Overlap {
-    position:absolute;
+    position: absolute;
     bottom: 0px;
     text-align:center;
     width: 100%;
@@ -269,61 +269,6 @@ h3{
     text-align:center;
 }
 
-.square4 {
-      
-    background-image: url("vidyard.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display:inline-block;
-    height: 300px;
-    width: 300px;
-    position:relative;
-    text-align:center;
-    padding-left:0;
-    margin: 40px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(0,0,0,.3);
-  }
-
-  .square5 {
-    background-image: url("kik.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display:inline-block;
-    height: 300px;
-    width: 300px;
-    position:relative;
-    text-align:center;
-    padding-left:0;
-    margin: 40px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(0,0,0,.3);
-  }
-
-  .square6 {
-    background-image: url("textnow.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display:inline-block;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    text-align:center;
-    padding-left:0;
-    margin: 40px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(0,0,0,.3);
-  }
-  
-    .containers2{
-      margin:auto;
-      width:100%;
-      text-align:center;
-  }
-
 .nav-wrapper{
     background-color: transparent;
     background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0));
@@ -333,21 +278,5 @@ h3{
 
 #discover{
     background-color: #D0DCE0;
-    height: auto;
-}
-
-#analytics{
-    background-color: #D0DCE0;
     height: 100%;
 }
-
-#search{
-    background-color: #D0DCE0;
-    height: 100%;
-}
-
-.column {
-    flex: 50%;
-    padding: 10px;
-    height: auto;
-  }
