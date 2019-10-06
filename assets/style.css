@@ -64,6 +64,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-right: 20px;
+    color: white;
 }
 
 a {
@@ -97,6 +98,6 @@ a {
     font-size: 40px;
     color: #f1f1f1;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 15%;
     text-align: center;
 }
