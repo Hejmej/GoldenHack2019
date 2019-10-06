@@ -3,7 +3,32 @@ import Header from './header';
 
 function Discover() {
     return (
+    <div id="discover">
       <Header />
+      <div className="containers"> 
+        <div className="square">
+          <div className="Overlap">
+            <h3>Zebu.io</h3>
+            <h3>Waterloo,ON</h3>
+            <h3>Technology</h3>
+          </div>
+        </div>
+        <div className="square2">
+          <div className="Overlap">
+            <h3>Smile.io</h3>
+            <h3>Waterloo,ON</h3>
+            <h3>E-commerce</h3>
+          </div>
+        </div>
+        <div className="square3">
+          <div className="Overlap">
+            <h3>North</h3>
+            <h3>Kitchener,ON</h3>
+            <h3>Technology</h3>
+          </div>
+        </div>
+      </div>
+    </div>
     );
 }
   

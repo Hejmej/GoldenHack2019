@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className="nav-wrapper grey darken-3">
+        <nav className="nav-wrapper">
             <div className="container">
                 <NavLink to="/"><img src={require("./logoWithText.png")} alt="Novus" className="left feedLogo" width="300px"></img></NavLink>
             </div>
