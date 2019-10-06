@@ -9,10 +9,10 @@ const Header = () => {
             </div>
             <div>    
                 <ul className="right">
-                    <li><NavLink to="/discover" className="Tab">Discover</NavLink></li>
-                    <li><NavLink to="/analytics" className="Tab">Analytics</NavLink></li>
-                    <li><NavLink to="/search" className="Tab">Search</NavLink></li>
-                    <li><NavLink to='/account' className='btn btn-floating blue'>AH</NavLink></li>
+                    <li><NavLink to="/discover" exact className="Tab" activeStyle={{color: "#428BCA"}}>Discover</NavLink></li>
+                    <li><NavLink to="/analytics" exact className="Tab" activeStyle={{color: "#428BCA"}}>Analytics</NavLink></li>
+                    <li><NavLink to="/search" exact className="Tab" activeStyle={{color: "#428BCA"}}>Search</NavLink></li>
+                    <li><NavLink to='/account' exact className='btn btn-floating blue'>AH</NavLink></li>
                 </ul>
             </div>
         </nav>
