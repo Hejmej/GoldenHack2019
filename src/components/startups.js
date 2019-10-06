@@ -14,12 +14,20 @@ function Startups() {
             <h1 className="title noSpace"> NOVUS</h1>
           </div>
           <div className="login">
-            <button className="myBtn">Signup</button>
-            <button className="myBtn">Login</button>
+            <button className="myBtn" onClick={function() {document.getElementById("myModal").style.display = "block";}}>Sign Up</button>
+            <button className="myBtn" onClick={function() {document.getElementById("myModal").style.display = "block";}}>Login</button>
             <div id="myModal" className="modal">
               <div className="modal-content">
-                <span className="close">×</span>
-                <p>Some text in the Modal..</p>
+                <span className="close" onClick={function() {document.getElementById("myModal").style.display = "none";}}>×</span>
+                <div id="inputNames">
+                    <h5>Username</h5>
+                    <h5>Password</h5>
+                </div>
+                <div id="inputBoxes">
+                    <input type="text" className="noSpace"></input>
+                    <input type="password" className="noSpace"></input>
+                </div>
+                <a href="homepage">Submit</a>
               </div>
             </div>
           </div>

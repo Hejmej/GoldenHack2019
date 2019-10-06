@@ -20,7 +20,7 @@ body {
 
 .topnav .forStartups {
     text-align: left;
-    margin-left: 10px;
+    margin-left: 30px;
     display: inline-block;
     width: 24%
 }
@@ -72,12 +72,20 @@ body {
     color: white;
     background-color: transparent;
     border: none;
+    padding: 5px 15px;
+    border-radius: 2px;
     transition: 0.1s;
 }
 
 .myBtn:hover {
-    color: pink;
-    transition: 0.1s;
+    color: #EFC988;
+    background-color: rgba(255,255,255,.6);
+    transition: 0.15s;
+}
+
+.myBtn:focus {
+    background-color: transparent;
+    transition: 0.15s;
 }
 
 a {
@@ -123,22 +131,37 @@ a {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content h5 {
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.modal-content a {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+#inputNames {
+    width: 20%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#inputBoxes {
+    width: 75%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 /* The Close Button */
