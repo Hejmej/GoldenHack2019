@@ -2,7 +2,6 @@
   "name": "novus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "novus.vision",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.10.2",

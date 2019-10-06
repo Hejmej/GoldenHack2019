@@ -3,13 +3,15 @@ import {NavLink} from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className="nav-wrapper grey darken-3">
+        <nav className="nav-wrapper">
             <div className="container">
-            <img src={require("./WhiteLogoSmall.png")} alt="Novus" className="left"></img>
+                <NavLink to="/"><img src={require("./logoWithText.png")} alt="Novus" className="left feedLogo" width="300px"></img></NavLink>
+            </div>
+            <div>    
                 <ul className="right">
-                    <li><NavLink to="/discover">Discover</NavLink></li>
-                    <li><NavLink to="/analytics">Analytics</NavLink></li>
-                    <li><NavLink to="/search">Search</NavLink></li>
+                    <li><NavLink to="/discover" className="Tab">Discover</NavLink></li>
+                    <li><NavLink to="/analytics" className="Tab">Analytics</NavLink></li>
+                    <li><NavLink to="/search" className="Tab">Search</NavLink></li>
                     <li><NavLink to='/account' className='btn btn-floating blue'>AH</NavLink></li>
                 </ul>
             </div>
