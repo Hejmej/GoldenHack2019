@@ -1,0 +1,90 @@
+.Overlap {
+    position: absolute;
+    bottom: 0px;
+    text-align:center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    background-position:center;
+    background-size: length 200px;
+
+  }
+
+  h3{
+    color: white; 
+    font-family: "Geneva"; 
+    margin:0;
+    padding: 0;
+    
+    padding-left:0px;
+    text-align: center;
+    
+  }
+
+  
+
+  .square {
+      
+      background-image: url("246x0w.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display:inline-block;
+      height: 300px;
+      width: 300px;
+      position:relative;
+      text-align:center;
+      padding-left:0;
+      margin: 40px;
+      
+      
+  
+    
+  }
+
+  .square2 {
+      
+    background-image: url("smile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:inline-block;
+    height: 300px;
+    width: 300px;
+    position:relative;
+    text-align:center;
+    padding-left:0;
+    margin: 40px;
+    
+    
+
+  
+}
+
+.square3 {
+      
+    background-image: url("north.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:inline-block;
+    height: 300px;
+    width: 300px;
+    position:relative;
+    text-align:center;
+    padding-left:0;
+    margin: 40px;
+    
+    
+
+  
+}
+
+  .containers{
+      margin:auto;
+      width:100%;
+      text-align:center;
+      
+      
+  }
+
+ 
