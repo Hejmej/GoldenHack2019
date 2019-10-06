@@ -6,7 +6,7 @@ function Startups() {
         <div className="topnav">
           <div className="forStartups noSpace">
             <div className="colorBox">
-              <a href="/">FOR INVESTORS</a>
+              <a href="/">INVESTORS</a>
             </div>
           </div>
           <div className="companyName noSpace">

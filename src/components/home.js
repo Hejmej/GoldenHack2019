@@ -6,7 +6,7 @@ function Home() {
         <div className="topnav">
           <div className="forStartups noSpace">
             <div className="colorBox">
-              <a href="startups">FOR STARTUPS</a>
+              <a href="startups">STARTUPS</a>
             </div>
           </div>
           <div className="companyName noSpace">
