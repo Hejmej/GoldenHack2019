@@ -94,11 +94,10 @@ a {
     font-display: white;
     font-weight: lighter;
     position: fixed;
-    bottom: 320;
+    bottom: 240;
     font-size: 40px;
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
     text-align: center;
-    z-index: 1000;
 }
