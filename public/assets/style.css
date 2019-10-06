@@ -3,6 +3,10 @@ body {
     background: black;
 }
 
+.white {
+    background-color: white;
+}
+
 .noSpace {
     margin: 0;
     padding: 0;

@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Home() {
+function Startups() {
     return (
       <div>
         <div className="topnav">
           <div className="forStartups noSpace">
             <div className="colorBox">
-              <a href="startups">FOR STARTUPS</a>
+              <a href="/">FOR INVESTORS</a>
             </div>
           </div>
           <div className="companyName noSpace">
@@ -25,7 +25,7 @@ function Home() {
           </div>
         </div>
         <div className="content">
-          <h1 className="Motto">FUEL INNOVATION.</h1>
+            <h1 className="motto">INNOVATION FUELED.</h1>
         </div>
         <div className="back-video noSpace">
           <video width="100%" height="100%" autoPlay loop className="fullscreen-bg__video noSpace">
@@ -36,4 +36,4 @@ function Home() {
     );
 }
   
-export default Home;
+export default Startups;
