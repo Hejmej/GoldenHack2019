@@ -178,3 +178,18 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+.Tab {
+    font-size: 30px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.submitButton {
+    background-color: #428BCA;
+    width: 20%;
+    margin: auto;
+    border-radius: 5px;
+}
