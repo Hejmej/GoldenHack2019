@@ -95,9 +95,12 @@ a {
     font-display: white;
     font-weight: lighter;
     position: fixed;
-    font-size: 40px;
     color: #f1f1f1;
     width: 100%;
-    margin-top: 15%;
+    margin-top: 10%;
     text-align: center;
+}
+
+.motto{
+    font-size: 70px;
 }

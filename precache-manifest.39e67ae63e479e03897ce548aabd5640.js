@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b86cd44c6e79ee0b5d2a911245db00bd",
+    "revision": "7ba9048fc3bc8dd72b81358c605f539b",
     "url": "novus.vision/index.html"
   },
   {
