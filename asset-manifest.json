@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "novus.vision/static/css/main.f05016c4.chunk.css",
-    "main.js": "novus.vision/static/js/main.3f41b940.chunk.js",
-    "main.js.map": "novus.vision/static/js/main.3f41b940.chunk.js.map",
+    "main.js": "novus.vision/static/js/main.415b2833.chunk.js",
+    "main.js.map": "novus.vision/static/js/main.415b2833.chunk.js.map",
     "runtime-main.js": "novus.vision/static/js/runtime-main.134f2006.js",
     "runtime-main.js.map": "novus.vision/static/js/runtime-main.134f2006.js.map",
     "static/js/2.37a9d189.chunk.js": "novus.vision/static/js/2.37a9d189.chunk.js",
     "static/js/2.37a9d189.chunk.js.map": "novus.vision/static/js/2.37a9d189.chunk.js.map",
     "index.html": "novus.vision/index.html",
-    "precache-manifest.022838a9ddb821971c1f76f6cab22ce1.js": "novus.vision/precache-manifest.022838a9ddb821971c1f76f6cab22ce1.js",
+    "precache-manifest.9bebbefa723cc3774ccf2c8cbd17dce5.js": "novus.vision/precache-manifest.9bebbefa723cc3774ccf2c8cbd17dce5.js",
     "service-worker.js": "novus.vision/service-worker.js",
     "static/css/main.f05016c4.chunk.css.map": "novus.vision/static/css/main.f05016c4.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.134f2006.js",
     "static/js/2.37a9d189.chunk.js",
     "static/css/main.f05016c4.chunk.css",
-    "static/js/main.3f41b940.chunk.js"
+    "static/js/main.415b2833.chunk.js"
   ]
 }
