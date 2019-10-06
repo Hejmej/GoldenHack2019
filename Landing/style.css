@@ -1,38 +1,68 @@
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
-
-.topnav {
-    vertical-align: bottom;
+body {
+    margin: 0;
+    background: black;
 }
 
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding-right: 100px;
-    text-decoration: none;
+.noSpace {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    color: white;
+    font-family: "Maven Pro";
+    width: 100%;
+    height: 100px;
+}
+
+.topnav .forStartups {
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.topnav .forStartups .colorBox {
+    background: #EFC988;
+    display: inline-block;
+    border-radius: 3px;
     font-size: 20px;
-    
-  }
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-.topnav h1{
-      float:left;
-      color: white;
-      font-size: 20px;
-      text-align: center;
-      padding-left: 450px;
-      
-  }
-
-#onright {
-    padding-left: 450px;
+    padding: 5px;
+    font-weight: bold;
 }
 
+.topnav .forStartups .colorBox a{
+    color: black;
+}
 
+.topnav .companyName {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+}
+
+.topnav .companyName .title {
+    font-size: 100px;
+    text-align: center;
+}
+
+.topnav .login {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    margin-top: 70px;
+}
+
+.topnav .login a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
